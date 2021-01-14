@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+
+body{
+    flex-direction: row;
+    height: 100vh;
+    margin-bottom:50px;
+    color:red;
+    background: radial-gradient(circle, #240015 0%, #12000b 100%);
+}
+
+main{
+    flex-direction: column;
+    padding:30px 10% 0% 10%;
+
+}
+
+.results{
+    flex-direction: column;
+}
+
+h1{
+    color:#359fd4;
+}
+
+img{
+    widows: 400px;
+    height: auto;
+    margin-right:20px;
+}
+
+.header{
+    font-family: audiowide;
+    padding-top: 5px;
+    background-color:#3498db;
+    height:150px;
+    text-align: center;
+    width:100%;
+
+}
+
+.header h1{
+    color:#240015 !important;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    background-color:#3498db;
+    color:#fff;
+    height: 150px;
+    text-align: center;
+}
+
+.push{
+    height:150px
+}
+
+.searchLocation{
+    color: white;
+}
+
+.navbar ul li{
+    display: inline;
+    list-style: none;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.navbar ul li a{
+    color:#240015 !important;
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 150%
+}
+
+.navbar ul li a:hover{
+    text-decoration: underline;
+}
