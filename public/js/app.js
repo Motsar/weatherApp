@@ -1,11 +1,3 @@
-console.log('Javascript file has been loaded!')
-
-fetch('http://puzzle.mead.io/puzzle').then((response)=>{
-    response.json().then((data)=>{
-        console.log(data);
-    })
-})
-
 const getForecast =async()=>{
     document.getElementById("result1").innerHTML= "";
     document.getElementById("result2").innerHTML= "";
